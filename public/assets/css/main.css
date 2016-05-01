@@ -1,0 +1,22 @@
+body {
+  background-image: url('../img/bckgr2.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          z-index: -1;
+          background-attachment: fixed;
+}
+
+h1, h5, p, #wait {
+  text-align: center;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.desc {
+  font-size: 16px;
+}
