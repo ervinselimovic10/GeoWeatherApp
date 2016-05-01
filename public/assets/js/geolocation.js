@@ -1,6 +1,7 @@
   $(function(){
       // Get location on click event
       $('#getLoc').on('click', getCurPos);
+      $waitmsg = $('#wait');
 
       // Get current position
       function getCurPos() {
@@ -8,28 +9,28 @@
         navigator.geolocation.getCurrentPosition(getGeolocation, checkForErrors);
       }
 
-      $(window).load(function(){
-        $('#imgLoc').html('Wait').fadeOut(2000);
-      });
-
       // Check for errors
       function checkForErrors(err) {
         switch(err.code)
         {
           case err.PERMISSION_DENIED: 
             alert("Uporabnik ni delil lokacije!");
+            $waitmsg.addClass('nodisplay');
           break;
    
           case err.POSITION_UNAVAILABLE: 
             alert("Program ni zaznal vaše lokacije!");
+            $waitmsg.addClass('nodisplay');
           break;
    
           case err.TIMEOUT: 
             alert("Čas pridobivanja lokacije se je iztekel.");
+            $waitmsg.addClass('nodisplay');
           break;
    
           default: 
             alert("Se opravičujemo, prišlo je do neznane napake.");
+            $waitmsg.addClass('nodisplay');
           break;
         }
       }
@@ -57,7 +58,7 @@
         );
 
         // Close wait msg - get loc btn and display form button
-        $('#wait').addClass('nodisplay');
+        $waitmsg.addClass('nodisplay');
         $('#getLoc').addClass('nodisplay');
         $('#submit').removeClass('nodisplay');
       }
