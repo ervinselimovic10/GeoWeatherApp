@@ -11,6 +11,6 @@
 2. Prikaz vaše lokacije s fotografijo. Pritisni gumb "Vremenska napoved" za prikaz sveže vremenske napovedi v najbližji lokaciji..
 ![alt tag](http://s32.postimg.org/m1kwhoyfp/image.jpg)
 
-3. Prikaz sveže vremenske napovedi z različnimi podatki (Osveži stran za novo pridobljene rezultate).
+3. Prikaz sveže vremenske napovedi z različnimi podatki.
 ![alt tag](http://s32.postimg.org/72p4p650l/image.jpg)
 
