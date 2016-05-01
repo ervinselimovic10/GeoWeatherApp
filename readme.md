@@ -1,6 +1,7 @@
+(Laravel, Bootstrap, Javascript, jQuery)
 # Vreme Slovenija
-Sveža vremenska napoved najbližje vaši lokaciji
-### (Laravel, Bootstrap, Javascript, jQuery)
+### Sveža vremenska napoved najbližje vaši lokaciji
+
 
 1. Pritisni gumb "Pridobi Lokacijo" in počakaj trenutek (V primeru napake se izpiše primerno sporočilo)...
 ![alt tag](http://s32.postimg.org/4oeadtumt/image.jpg)
