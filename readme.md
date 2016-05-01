@@ -1,4 +1,6 @@
 (Laravel, Bootstrap, Javascript, jQuery)
+  - Konfiguracija framework.a je prvotna (development mode)
+
 # Vreme Slovenija
 ### Sveža vremenska napoved najbližje vaši lokaciji
 
