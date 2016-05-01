@@ -12,5 +12,5 @@
 ![alt tag](http://s32.postimg.org/m1kwhoyfp/image.jpg)
 
 3. Prikaz sveže vremenske napovedi z različnimi podatki (Osveži stran za novo pridobljene rezultate).
-![alt tag](http://s32.postimg.org/7kfq3iwd1/image.jpg)
+![alt tag](http://s32.postimg.org/72p4p650l/image.jpg)
 
